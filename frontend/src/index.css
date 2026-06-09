@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #f8fafc; /* light slate-50 background */
+    color: #0f172a; /* slate-900 */
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Elegant classic card utility styling */
+.classic-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0; /* border-slate-200 */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+}
+
+.classic-transition {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
