@@ -133,13 +133,13 @@ Open `http://localhost:5173` in your browser.
 
 The backend relies on the following variables:
 
-- `MONGO_URI` — MongoDB connection string
-- `JWT_SECRET` — Secret key used to sign JWTs
-- `CLIENT_URL` — Frontend origin for CORS
-- `PORT` — Backend server port
-- `NODE_ENV` — Application environment mode
+- `MONGO_URI` - MongoDB connection string
+- `JWT_SECRET` - Secret key used to sign JWTs
+- `CLIENT_URL` - Frontend origin for CORS
+- `PORT` - Backend server port
+- `NODE_ENV` - Application environment mode
 
-> 💡 **Security Tip:** Keep `.env` files out of version control and never commit secrets.
+> Keep `.env` files out of version control and never commit secrets.
 
 ### 📝 Notes
 
