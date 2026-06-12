@@ -24,6 +24,7 @@ This project demonstrates a complete authentication workflow, including user reg
 ```text
 Auth-system/
 ├─ backend/
+│  ├─ .env.example
 │  ├─ package.json
 │  ├─ server.js
 │  ├─ config/
@@ -93,15 +94,20 @@ cd ../frontend
 npm install
 ```
 
-4. **Create a `.env` file in the `backend/` directory with the following values:**
+4. **Set up environment variables:**
 
-```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secure_jwt_secret
-CLIENT_URL=http://localhost:5173
-PORT=5000
-NODE_ENV=development
-```
+   - Copy the `.env.example` template in the `backend/` directory to create your `.env` file:
+     ```bash
+     cp backend/.env.example backend/.env
+     ```
+   - Open the new `.env` file and update the variables with your configuration:
+     ```env
+     MONGO_URI=your_mongodb_connection_string
+     JWT_SECRET=your_secure_jwt_secret
+     CLIENT_URL=http://localhost:5173
+     PORT=5000
+     NODE_ENV=development
+     ```
 
 ### ⚙️ Running the Application
 
