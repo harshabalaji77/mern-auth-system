@@ -1,4 +1,4 @@
-## Auth System - MERN Stack 🔐
+## Auth System - MERN Stack
 
 This project demonstrates a complete authentication workflow, including user registration, login, protected dashboard access, JWT cookie handling, and password updates for authenticated users.
 
